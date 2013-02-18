@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.4">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>460</x>
+      <y>430</y>
+      <w>240</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Unified logging, performance 
+statistics, management, alarming</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>320</x>
+      <y>210</y>
+      <w>430</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>center: high performance MQ with technology transparent interfaces
+center: for sync/asyc messaging, built in RMI
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>960</x>
+      <y>220</y>
+      <w>120</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>center:HotDeploy
+center: Web or XCopy</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>190</x>
+      <y>290</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>center:FileWatch</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>330</x>
+      <y>290</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>center:SqlWatch</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>200</x>
+      <y>50</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>center:Scheduled Jobs
+just like scheduled jobs but better</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>50</x>
+      <y>340</y>
+      <w>270</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>center:LightSql
+center:define your db model in code 
+center:and just use it coe-first style</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>330</x>
+      <y>340</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>center:LightNoSql
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>470</x>
+      <y>290</y>
+      <w>290</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>center:UnifiedConfig - with NoSql</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>470</x>
+      <y>340</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>center:LightMVC
+center:for very light stand alone web apps</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>1100</x>
+      <y>220</y>
+      <w>120</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>center:High Availability</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>1240</x>
+      <y>220</y>
+      <w>130</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>center:Web managment,
+center:configuration,
+center: admin console</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>140</x>
+      <y>750</y>
+      <w>590</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>center:Core</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>280</x>
+      <y>1000</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>center:Dynamic Container for
+center:Container Dependency Injection</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>550</x>
+      <y>810</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>center:RabbitMQ
+center:+managment and 
+center:dynamic routing</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>270</x>
+      <y>820</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>center:AppDomain 
+center:separation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>200</x>
+      <y>130</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>center:Long processes
+center:no more stand alone WinServices</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>150</x>
+      <y>780</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>center:Razor
+center: NoSql</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>290</x>
+      <y>900</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>center:SQL CodeFirst 
+center:Engine for access and migration
+center: (see Orchard)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>400</x>
+      <y>790</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>center:Quartz.NET</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>150</x>
+      <y>930</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>center:ASP.MVC
+center:managment
+center:console</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>180</x>
+      <y>420</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>center:attributes configuration
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>870</x>
+      <y>530</y>
+      <w>460</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+DynamicContainer
+--
+
+#Put&lt;T&gt;()
+#PutWithName&lt;T&gt;(string name)
+#PutWithNameAndFactory&lt;T&gt;(string name, IFactory&lt;T&gt; factory)
+--
+#Get&lt;T&gt;()
+#GetWithName&lt;T&gt;(string name)
+--
+#Remove&lt;T&gt;()
+/+AbstractOperation()/
+--
+Responsibilities
+-- manages items within the container
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>880</x>
+      <y>770</y>
+      <w>530</w>
+      <h>560</h>
+    </coordinates>
+    <panel_attributes>ESP
+
+
+
+-- managed module
+[ManagedModule]
+public class MyModule
+{
+
+-- CDI injection
+	[Injected(Lazy=true)]
+	public virtual SomeType TheProperty {get; set;}
+
+	[ManagedModuleInit]
+	public virtual OnModuleInit(DynamicContainer container) 
+	{ 
+-- manual registartion in container
+		container.Put&lt;IMyInf&gt;(new MyIfcImpl());
+	}
+
+	[ManagedModuleDestroy]
+	public virtual OnModuleDestroy(DynamicContainer container) 
+	{ 
+-- manual removal
+		container.Remove&lt;IMyInf&gt;();
+	}
+}
+
+
+-- auto registartion to DynamicContainer
+[Injectable(ForInterface=IMyInf, Type=Singleton)]
+public class MyOtherIfcImpl
+{
+...
+}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>10</x>
+      <y>20</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Features
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>140</x>
+      <y>640</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Building blocks
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>950</x>
+      <y>130</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Infrastructure features
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>0</x>
+      <y>200</y>
+      <w>310</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>center:ESP + CDI
+center:ESP = Enterprise Sharp POCOs
+center:with built in REST / JSON / SOAP style access</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>870</x>
+      <y>450</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Code snippets
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>470</x>
+      <y>120</y>
+      <w>280</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>center:transparent for WCF with management 
+center:features (ports opening, closing, 
+center:configuration wizards)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>480</x>
+      <y>0</y>
+      <w>260</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>center:Declarative transactions</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>480</x>
+      <y>50</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>center:Loose events system
+center:(with async topic)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>210</x>
+      <y>0</y>
+      <w>260</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>center:Process protection</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>40</x>
+      <y>480</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>center:Windows Workflow Foundation
+center:hosting and common infrastructure</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
