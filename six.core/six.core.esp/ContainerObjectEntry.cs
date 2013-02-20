@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace six.core.interfaces.esp.impl
+namespace six.core.esp
 {
     /// <summary>
     /// container for a registered object entry

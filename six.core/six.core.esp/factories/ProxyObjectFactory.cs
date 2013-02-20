@@ -1,4 +1,6 @@
-﻿namespace six.core.interfaces.esp.impl.factories
+﻿using six.core.interfaces.esp;
+
+namespace six.core.esp.factories
 {
     /// <summary>
     /// this factory just proxies the call to another factory

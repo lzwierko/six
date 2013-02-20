@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("six.core.interfaces")]
+[assembly: AssemblyTitle("six.core.esp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Lukasz Zwierko")]
-[assembly: AssemblyProduct("six.core.interfaces")]
-[assembly: AssemblyCopyright("Copyright © Lukasz Zwierko 2012")]
+[assembly: AssemblyProduct("six.core.esp")]
+[assembly: AssemblyCopyright("Copyright © Lukasz Zwierko 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d6a287dc-0577-45ff-a7ef-2952c4b6f469")]
+[assembly: Guid("e2be9634-13ef-4bfb-931b-eb4123433e54")]
 
 // Version information for an assembly consists of the following four values:
 //

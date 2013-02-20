@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1B9BEAFF-842A-4B9A-A108-DDBCA5B63251}</ProjectGuid>
+    <ProjectGuid>{66E97DBE-C04E-45FC-9FD7-EEC06C9B412F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>six.core.interfaces</RootNamespace>
-    <AssemblyName>six.core.interfaces</AssemblyName>
+    <RootNamespace>six.core.esp</RootNamespace>
+    <AssemblyName>six.core.esp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,12 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="esp\CreationStrategy.cs" />
-    <Compile Include="esp\IContainer.cs" />
-    <Compile Include="esp\IObjectFactory.cs" />
+    <Compile Include="Container.cs" />
+    <Compile Include="ContainerObjectEntry.cs" />
+    <Compile Include="factories\CachedObjectFactory.cs" />
+    <Compile Include="factories\LazyCachedObjectFactory.cs" />
+    <Compile Include="factories\NewObjectFactory.cs" />
+    <Compile Include="factories\ProxyObjectFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\six.core.interfaces\six.core.interfaces.csproj">
+      <Project>{1B9BEAFF-842A-4B9A-A108-DDBCA5B63251}</Project>
+      <Name>six.core.interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

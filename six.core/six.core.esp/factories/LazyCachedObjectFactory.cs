@@ -1,6 +1,7 @@
 ﻿using System;
+using six.core.interfaces.esp;
 
-namespace six.core.interfaces.esp.impl.factories
+namespace six.core.esp.factories
 {
     /// <summary>
     /// this factory lazely initializes object and caches and object created by base facotry

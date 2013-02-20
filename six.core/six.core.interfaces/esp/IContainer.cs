@@ -52,5 +52,18 @@ namespace six.core.interfaces.esp
         /// <param name="name"></param>
         /// <returns></returns>
         T Get<T>(string name) where T : class;
+
+        /// <summary>
+        /// remove all objects of a given type from container
+        /// </summary>
+        /// <typeparam name="T">type of objects to remove</typeparam>
+        void Remove<T>();
+
+        /// <summary>
+        /// remove objects of given type wiht given name
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="name"></param>
+        void Remove<T>(string name);
     }
 }

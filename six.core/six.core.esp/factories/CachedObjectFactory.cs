@@ -1,6 +1,6 @@
 ﻿using six.core.interfaces.esp;
 
-namespace six.core.interfaces.esp.impl.factories
+namespace six.core.esp.factories
 {
     /// <summary>
     /// this factory always returns cached object
